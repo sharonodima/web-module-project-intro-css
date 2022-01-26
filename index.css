@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    align-items: left;
+  }
+
+  .introduction {
+    font-size: 20px;
+    text-align:center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Chelsea Market', cursive;
+  }
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 3px;
+}
+
+.text {
+    width:100%;
+    background-color:#DDB9A3;
+    color: white;
+    text-align:left;
+    padding:5%;
+    font-family: 'Roboto Mono', monospace; 
+}
+  
+.fire {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.camping{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+a {
+
+    justify-content:space-evenly;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 0.25em;
+  }
+ 
+ .plan {
+    display: inline-block;
+    width: 20%;
+    background-color: #FF764E;
+    padding: 2% 2%;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .plan:hover{
+      background-color: white;
+  }
+
+  .learn {
+    display: inline-block;
+    width: 20%;
+    background-color: #5ED3EB;
+    padding: 2% 2%;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .learn:hover{
+    background-color: white;
+   
+    
+}
+  
+  .involved {
+    display: inline-block;
+    width: 20%;
+    background-color: #FFCD69;
+    padding: 2% 5%;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .involved:hover{
+    background-color: white;
+}
+
+  
+  #redmountains {
+    max-width: 40%;
+    border-radius: 600px;
+    padding: 100px;
+  }
+
+  #bluemountains{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  #wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+}
+
+footer div{
+    background-color: #DDB9A3;
+}
